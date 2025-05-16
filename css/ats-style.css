@@ -1,0 +1,86 @@
+/* Estilos ATS - Optimizados para sistemas de seguimiento */
+.ats-container {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+
+.ats-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #0078d7;
+    padding-bottom: 20px;
+}
+
+.ats-header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #0078d7;
+}
+
+.ats-section {
+    margin-bottom: 25px;
+}
+
+.ats-section h2 {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    color: #0078d7;
+}
+
+.ats-list {
+    padding-left: 20px;
+}
+
+.ats-list li {
+    margin-bottom: 5px;
+}
+
+.ats-date {
+    font-style: italic;
+    color: #666;
+    margin: 5px 0;
+}
+
+.ats-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.ats-skills li {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.ats-back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Optimización para ATS */
+body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
+h1, h2, h3 {
+    page-break-after: avoid;
+}
+
+.ats-section {
+    page-break-inside: avoid;
+}

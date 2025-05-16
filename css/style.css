@@ -59,7 +59,51 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
 }
+/* Estilos para el botón de CV */
+.cv-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
 
+.cv-button:hover {
+    background-color: #45a049;
+}
+
+.cv-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+.cv-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.cv-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
 /* Media Queries para diseño responsive */
 @media (max-width: 768px) {
     nav ul {
